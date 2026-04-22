@@ -15,11 +15,11 @@ void swap(int *a,int *b){
     for(int j=low;j<high;j++){
         if(arr[j]<=pivot){
             i++;
-            swap(&arr[i],&arr[j]);
+            swap(&arr[i],&arr[j]);//pivot small value
         }
     }
     i++;
-    swap(&arr[i],&arr[high]);
+    swap(&arr[i],&arr[high]);//array of end pivot valu
     return i;
 
  }

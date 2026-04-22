@@ -2,7 +2,7 @@
 int binary_search(int arr[10],int key,int size){
     int low=0;
     int high=size-1;
-    int mid;(low+high)/2;
+    int mid;
     while(low<high){
        mid=(low+high)/2;
       if(arr[mid]==key){
